@@ -10,6 +10,7 @@ public class Calculator {
             case "/":
                 return parseInt / Double.valueOf(parseInt1);
             default:
+                System.out.println("Такой команды не существует");
                 return null;
         }
     }
